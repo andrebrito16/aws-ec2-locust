@@ -15,6 +15,7 @@ sudo apt install -y python3-pip
 wait_for_dpkg
 
 pip3 install locust
+pip3 install charset-normalizer
 
 
 touch locustfile.py
